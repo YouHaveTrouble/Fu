@@ -9,10 +9,10 @@ commands:
     usage: /<command> <name>
     description: Checks your balance
     aliases:
-    - money
+      - money
 
 softdepend:
-- Vault
+  - Vault
 
 permissions:
   fu.balance:
