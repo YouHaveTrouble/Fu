@@ -2,19 +2,19 @@ holdings: 10.00
 
 maxholdings: -1
 
-prefix: Fe
+prefix: Fu
 
 topsize: 5
 
 currency:
   negative: false
   major:
-    single: Fe
-    multiple: Fe
+    single: Fu
+    multiple: Fu
   minor:
     enabled: false
-    single: Fe
-    multiple: Fe
+    single: Fu
+    multiple: Fu
   prefix: ""
 
 type: sqlite

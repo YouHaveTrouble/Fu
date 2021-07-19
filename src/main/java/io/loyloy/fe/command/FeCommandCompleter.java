@@ -14,11 +14,9 @@ import java.util.List;
 
 public class FeCommandCompleter implements TabCompleter {
 
-	Fe plugin;
 	FeCommand feCommand;
 	
-	public FeCommandCompleter(Fe plugin, FeCommand feCommand) {
-		this.plugin = plugin;
+	public FeCommandCompleter(FeCommand feCommand) {
 		this.feCommand = feCommand;
 	}
 	

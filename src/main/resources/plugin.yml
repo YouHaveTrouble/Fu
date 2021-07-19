@@ -1,11 +1,11 @@
-name: Fe
+name: Fu
 main: io.loyloy.fe.Fe
 version: 0.9.2
 api-version: 1.13
 load: STARTUP
 
 commands:
-  fe:
+  fu:
     usage: /<command> <name>
     description: Checks your balance
     aliases:
@@ -15,55 +15,55 @@ softdepend:
 - Vault
 
 permissions:
-  fe.balance:
-    description: Allows you to check your balance with the /fe command
+  fu.balance:
+    description: Allows you to check your balance with the /fu command
     default: true
-  fe.balance.other:
-    description: Allows you to check other players' balances with the /fe name command
+  fu.balance.other:
+    description: Allows you to check other players' balances with the /fu name command
     default: true
-  fe.send:
-    description: Allows you to send money to other players with the /fe send name amount command
+  fu.send:
+    description: Allows you to send money to other players with the /fu send name amount command
     default: true
-  fe.top:
-    description: Allows you to check the top 5 richest players with the /fe top command
+  fu.top:
+    description: Allows you to check the top 5 richest players with the /fu top command
     default: true
-  fe.?:
-    description: Allows you to get help with the /fe help command
+  fu.?:
+    description: Allows you to get help with the /fu help command
     default: true
-  fe.create:
+  fu.create:
     description: Allows you to create an account
-  fe.remove:
+  fu.remove:
     description: Allows you to remove an account
-  fe.set:
-    description: Allows you to set other player's balance with the /fe set name amount command
-  fe.grant:
-    description: Allows you grant players money with the /fe grant name amount command
-  fe.deduct:
-    description: Allows you to deduct money from a player with the /fe deduct name amount command
-  fe.clean:
-    description: Allows you to clean all accounts with the default balance with the /fe clean command
-  fe.reload:
-    description: Allows you to reload the configuration with the /fe reload command
-  fe.notify:
-    description: Allows you to receive a notification when Fe is out of date
-  fe.member:
+  fu.set:
+    description: Allows you to set other player's balance with the /fu set name amount command
+  fu.grant:
+    description: Allows you grant players money with the /fu grant name amount command
+  fu.deduct:
+    description: Allows you to deduct money from a player with the /fu deduct name amount command
+  fu.clean:
+    description: Allows you to clean all accounts with the default balance with the /fu clean command
+  fu.reload:
+    description: Allows you to reload the configuration with the /fu reload command
+  fu.notify:
+    description: Allows you to receive a notification when Fu is out of date
+  fu.member:
     children:
-      fe.balance: true
-      fe.balance.other: true
-      fe.send: true
-      fe.top: true
-      fe.?: true
-  fe.admin:
+      fu.balance: true
+      fu.balance.other: true
+      fu.send: true
+      fu.top: true
+      fu.?: true
+  fu.admin:
     children:
-      fe.create: true
-      fe.remove: true
-      fe.set: true
-      fe.grant: true
-      fe.deduct: true
-      fe.clean: true
-      fe.reload: true
-      fe.notify: true
-  fe.*:
+      fu.create: true
+      fu.remove: true
+      fu.set: true
+      fu.grant: true
+      fu.deduct: true
+      fu.clean: true
+      fu.reload: true
+      fu.notify: true
+  fu.*:
     children:
-      fe.member: true
-      fe.admin: true
+      fu.member: true
+      fu.admin: true

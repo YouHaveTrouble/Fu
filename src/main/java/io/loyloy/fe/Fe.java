@@ -77,8 +77,8 @@ public class Fe extends JavaPlugin
         }
 
         FeCommand feCommand = new FeCommand( this );
-        getCommand( "fe" ).setExecutor( feCommand );
-        getCommand( "fe" ).setTabCompleter( new FeCommandCompleter(this, feCommand) );
+        getCommand( "fu" ).setExecutor( feCommand );
+        getCommand( "fu" ).setTabCompleter( new FeCommandCompleter(feCommand) );
 
         PluginManager pm = getServer().getPluginManager();
         pm.registerEvents( new FePlayerListener( this ), this );

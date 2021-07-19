@@ -6,11 +6,11 @@ COMMAND_NOT_CONSOLE: The command '$1' cannot be used in the console.
 NO_PERMISSION_FOR_COMMAND: Sorry, you do not have permission to use that command.
 ACCOUNT_HAS: $1 has $2
 YOU_HAVE: You have $1
-HELP: Fe Help
+HELP: Fu Help
 HELP_ARGUMENTS: $1 Required, $2 Optional
 RICH: Rich List
 STARTING_UUID_CONVERSION: Starting UUID conversion.
-UUID_CONVERSION_FAILED: UUID conversion failed, disabling Fe!
+UUID_CONVERSION_FAILED: UUID conversion failed, disabling Fu!
 UUID_CONVERSION_SUCCEEDED: UUID conversion has succeeded!
 CONFIG_RELOADED: The config has been reloaded.
 NOT_ENOUGH_MONEY: You don't have enough money.
